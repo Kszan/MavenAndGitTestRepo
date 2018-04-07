@@ -12,7 +12,7 @@ public class BubbleSortTest {
     @Test
     public void shouldSortList() {
         //given
-        int[] array = {1,6,7,3,5,7};
+        int[] array = {1,6,7,3,5,7, 10, 56, 2};
         BubbleSort bubbleSort = new BubbleSort(array);
 
         //when

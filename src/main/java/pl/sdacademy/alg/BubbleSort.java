@@ -7,6 +7,7 @@ public class BubbleSort {
     public BubbleSort(int[] array) {
         this.array = array;
     }
+    // jakiś komentarz
 
     void swap(int i, int j) {
         int tmp = array[i];

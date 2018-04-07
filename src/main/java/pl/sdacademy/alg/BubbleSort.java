@@ -7,6 +7,7 @@ public class BubbleSort {
     public BubbleSort(int[] array) {
         this.array = array;
     }
+    // jakiś komentarz
 
 
     public int[] sort() {
@@ -23,7 +24,7 @@ public class BubbleSort {
         return array;
     }
 
-    private void swap(int i, int j) {
+    protected void swap(int i, int j) {
         int tmp = array[i];
         array[i] = array[j];
         array[j] = tmp;

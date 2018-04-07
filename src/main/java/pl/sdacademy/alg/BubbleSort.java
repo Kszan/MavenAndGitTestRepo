@@ -8,6 +8,11 @@ public class BubbleSort {
         this.array = array;
     }
 
+    void swap(int i, int j) {
+        int tmp = array[i];
+        array[i] = array[j];
+        array[j] = tmp;
+    }
 
     public int[] sort() {
         if(array == null) {
@@ -23,9 +28,4 @@ public class BubbleSort {
         return array;
     }
 
-    private void swap(int i, int j) {
-        int tmp = array[i];
-        array[i] = array[j];
-        array[j] = tmp;
-    }
 }
